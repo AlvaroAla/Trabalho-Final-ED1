@@ -1,0 +1,1106 @@
+Alunos:
+Álvaro Ala Moraes Borges 12121BSI269
+Andressa Oliveira Bernardes 12121BSI201
+Giovanna Sara Lemos Guzzardi 12121BSI261
+
+CASOS DE TESTE
+
+Caso teste 1: normal
+Entradas:
+Ana
+3
+1
+4
+5
+Joao
+4
+6	
+8
+15
+12
+Joana
+2
+15
+13
+
+Saída:
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        	Código: 1
+        	Refeição: Hambúrguer
+        	Preço da refeição: R$5.99
+        	Código: 4
+        	Refeição: Pizza
+        	Preço da refeição: R$50.99
+        	Código: 5
+        	Refeição: Fritas
+        	Preço da refeição: R$15.00
+  Preço total: R$71.98
+
+Cliente: Joao
+        	Código: 6
+        	Refeição: Abobora-Recheada
+       	 Preço da refeição: R$35.00
+       	 Código: 8
+       	 Refeição: Escondidinho
+       	 Preço da refeição: R$30.99
+      	  Código: 15
+       	 Refeição: Galinhada-Caipira
+      	  Preço da refeição: R$35.90
+     	   Código: 12
+      	  Refeição: Salada-Grega
+    	    Preço da refeição: R$7.00
+  Preço total: R$108.89
+
+Cliente: Joana
+      	  Código: 15
+      	  Refeição: Galinhada-Caipira
+      	  Preço da refeição: R$35.90
+     	  Código: 13
+    	  Refeição: Feijoada-Picante
+       	 Preço da refeição: R$35.90
+  Preço total: R$71.80
+
+
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joao, chocolate que ele(a) recebeu: Five-Star
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Lancy
+ 
+Caso teste 2: item a mais no arquivo cardápio.txt
+Entradas:
+Ana
+2
+15
+7
+Joao
+1
+13
+Joana
+1
+11
+ 
+Saída: 
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+        Código: 7
+        Refeição: Lasanha
+        Preço da refeição: R$40.00
+  Preço total: R$75.90
+
+Cliente: Joao
+        Código: 13
+        Refeição: Feijoada-Picante
+        Preço da refeição: R$35.90
+  Preço total: R$35.90
+
+Cliente: Joana
+        Código: 11
+        Refeição: Macarrão
+        Preço da refeição: R$20.00
+  Preço total: R$20.00
+
+
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joao, chocolate que ele(a) recebeu: Five-Star
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Lancy
+ 
+Caso teste 3: nenhum item no arquivo cardápio.txt
+Entradas:
+ Ana
+2
+8
+15
+Joana
+1
+6
+
+Saída: 
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        Código: 0
+        Refeição: 
+        Preço da refeição: R$0.00
+        Código: 0
+        Refeição: 
+        Preço da refeição: R$0.00
+  Preço total: R$0.00
+
+Cliente: Joana
+        Código: 0
+        Refeição: 
+        Preço da refeição: R$0.00
+  Preço total: R$0.00
+
+
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Five-Star
+
+Caso teste 4: item a mais no arquivo chocolate.txt
+Entradas:
+Ana
+1
+5
+Joana
+1
+3
+ 
+Saída:
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        Código: 5
+        Refeição: Fritas
+        Preço da refeição: R$15.00
+  Preço total: R$15.00
+
+Cliente: Joana
+        Código: 3
+        Refeição: Tacos
+        Preço da refeição: R$7.50
+  Preço total: R$7.50
+
+A pilha está cheia!
+
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Five-Star
+ 
+Caso teste 5: nenhum item no arquivo chocolate.txt
+ Entradas:
+ Ana
+1
+5
+Joana
+1
+6
+Saída:
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        Código: 5
+        Refeição: Fritas
+        Preço da refeição: R$15.00
+  Preço total: R$15.00
+
+Cliente: Joana
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+  Preço total: R$35.00
+
+A pilha está vazia!
+
+Chocolates na pilha:
+
+
+A pilha está vazia!
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: 
+A pilha está vazia!
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: 
+A pilha está vazia!
+
+Caso teste 6 : impressão da pilha e da fila assim que criadas
+Entradas:
+Ana
+2
+4
+8
+Joana
+3
+9
+7
+15
+
+Saída: 
+Lista dos clientes com o total consumido por cada um:
+A pilha está vazia!
+
+Chocolates na pilha:
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Five-Star
+ 
+Caso teste 7: impressão da fila antes de calcular o total consumido
+Entradas: 
+Ana
+2
+6
+9
+Joana
+3
+4
+12
+13
+ 
+Saída: 
+liente: Ana
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+  Preço total: R$0.00
+
+Cliente: Joana
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+        Código: 12
+        Refeição: Salada-Grega
+        Preço da refeição: R$7.00
+        Código: 13
+        Refeição: Feijoada-Picante
+        Preço da refeição: R$35.90
+  Preço total: R$0.00
+
+
+
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+  Preço total: R$47.00
+
+Cliente: Joana
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+        Código: 12
+        Refeição: Salada-Grega
+        Preço da refeição: R$7.00
+        Código: 13
+        Refeição: Feijoada-Picante
+        Preço da refeição: R$35.90
+  Preço total: R$93.89
+
+
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Five-Star
+
+Caso teste 8: cliente escolhendo 20 itens
+ Entradas:
+Ana
+20
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+6
+4
+8
+2
+3
+
+Saída:
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        Código: 1
+        Refeição: Hamburger
+        Preço da refeição: R$5.99
+        Código: 2
+        Refeição: Nhoque
+        Preço da refeição: R$15.90
+        Código: 3
+        Refeição: Tacos
+        Preço da refeição: R$7.50
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+        Código: 5
+        Refeição: Fritas
+        Preço da refeição: R$15.00
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 7
+        Refeição: Lasanha
+        Preço da refeição: R$40.00
+        Código: 8
+        Refeição: Escondidinho
+        Preço da refeição: R$30.99
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 10
+        Refeição: Pure-de-Batata
+        Preço da refeição: R$10.00
+        Código: 11
+        Refeição: Macarrão
+        Preço da refeição: R$20.00
+        Código: 12
+        Refeição: Salada-Grega
+        Preço da refeição: R$7.00
+        Código: 13
+        Refeição: Feijoada-Picante
+        Preço da refeição: R$35.90
+        Código: 14
+        Refeição: Prato-Feito
+        Preço da refeição: R$28.90
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+        Código: 8
+        Refeição: Escondidinho
+        Preço da refeição: R$30.99
+        Código: 2
+        Refeição: Nhoque
+        Preço da refeição: R$15.90
+        Código: 3
+        Refeição: Tacos
+        Preço da refeição: R$7.50
+  Preço total: R$491.45
+Cliente: Joana
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+  Preço total: R$35.00
+
+
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Five-Star
+
+Caso teste 9 : cliente escolhendo 7 itens
+Entrada:
+Ana
+1
+6
+Joana
+7
+1
+3
+5
+7
+9
+4
+6
+
+Saída
+Lista dos clientes com o total consumido por cada um:
+Cliente: Ana
+	Código: 6
+	Refeição: Abobora-Recheada
+	Preço da refeição: R$35.00
+  Preço total: R$35.00 
+Cliente: Joana 
+	Código: 1 
+	Refeição: Hamburger
+	Preço da refeição: R$5.99 
+	Código: 3 
+	Refeição: Tacos 
+	Preço da refeição: R$7.50 
+	Código: 5 
+	Refeição: Fritas 
+	Preço da refeição: R$15.00 
+	Código: 7 
+	Refeição: Lasanha 
+	Preço da refeição: R$40.00 
+	Código: 9 
+	Refeição: Cachorro-Quente 
+	Preço da refeição: R$12.00 
+	Código: 4 
+	Refeição: Pizza 
+	Preço da refeição: R$50.99 
+	Código: 6 
+	Refeição: Abobora-Recheada 
+	Preço da refeição: R$35.00 
+  Preço total: R$166.48 
+	
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Five-Star
+
+ Caso teste 10: 20 clientes
+ Entradas:
+Ana
+2
+5
+9
+Joao
+1
+6
+Joana
+3
+6 
+8
+1
+Andressa
+2
+5
+10
+Matheus
+4
+9
+3
+4
+15
+Alvaro
+1
+ 9
+Giovanna
+2
+9
+8
+Gabriel
+2
+9
+7
+Anaysa
+1
+8
+Rayan
+3
+8
+4
+2
+Analya
+4
+9
+12
+13
+4
+Rael
+5
+9
+7
+5
+1
+3
+Maria
+2
+9
+4
+Marcos
+4
+1
+2
+4
+12
+Wilson
+3
+12
+13
+15
+Zilda
+2
+6
+4
+Laleska
+1
+15
+Alanna
+4
+6
+9
+7
+15
+Lara
+2
+6
+15
+Artur
+3
+12
+15
+10
+
+ Saída:
+Lista dos clientes com o total consumido por cada um: 
+Cliente: Ana
+        Código: 5
+        Refeição: Fritas
+        Preço da refeição: R$15.00
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+  Preço total: R$27.00
+
+Cliente: Joao
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+  Preço total: R$35.00
+
+Cliente: Joana
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 8
+        Refeição: Escondidinho
+        Preço da refeição: R$30.99
+        Código: 1
+        Refeição: Hamburger
+        Preço da refeição: R$5.99
+  Preço total: R$71.98
+
+Cliente: Andressa
+        Código: 5
+        Refeição: Fritas
+        Preço da refeição: R$15.00
+        Código: 10
+        Refeição: Pure-de-Batata
+        Preço da refeição: R$10.00
+  Preço total: R$25.00
+
+Cliente: Matheus
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 3
+        Refeição: Tacos
+        Preço da refeição: R$7.50
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+  Preço total: R$106.39
+
+Cliente: Alvaro
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+  Preço total: R$12.00
+
+Cliente: Giovanna
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 8
+        Refeição: Escondidinho
+        Preço da refeição: R$30.99
+  Preço total: R$42.99
+
+Cliente: Gabriel
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 7
+        Refeição: Lasanha
+        Preço da refeição: R$40.00
+  Preço total: R$52.00
+
+Cliente: Anaysa
+        Código: 8
+        Refeição: Escondidinho
+        Preço da refeição: R$30.99
+  Preço total: R$30.99
+
+Cliente: Rayan
+        Código: 8
+        Refeição: Escondidinho
+        Preço da refeição: R$30.99
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+        Código: 2
+        Refeição: Nhoque
+        Preço da refeição: R$15.90
+  Preço total: R$97.88
+
+Cliente: Analya
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 12
+        Refeição: Salada-Grega
+        Preço da refeição: R$7.00
+        Código: 13
+        Refeição: Feijoada-Picante
+        Preço da refeição: R$35.90
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+  Preço total: R$105.89
+
+Cliente: Rael
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 7
+        Refeição: Lasanha
+        Preço da refeição: R$40.00
+        Código: 5
+        Refeição: Fritas
+        Preço da refeição: R$15.00
+        Código: 1
+        Refeição: Hamburger
+        Preço da refeição: R$5.99
+        Código: 3
+        Refeição: Tacos
+        Preço da refeição: R$7.50
+  Preço total: R$80.49
+
+Cliente: Maria
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+  Preço total: R$62.99
+
+Cliente: Marcos
+        Código: 1
+        Refeição: Hamburger
+        Preço da refeição: R$5.99
+        Código: 2
+        Refeição: Nhoque
+        Preço da refeição: R$15.90
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+        Código: 12
+        Refeição: Salada-Grega
+        Preço da refeição: R$7.00
+  Preço total: R$79.88
+
+Cliente: Wilson
+        Código: 12
+        Refeição: Salada-Grega
+        Preço da refeição: R$7.00
+        Código: 13
+        Refeição: Feijoada-Picante
+        Preço da refeição: R$35.90
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+  Preço total: R$78.80
+
+Cliente: Zilda
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 4
+        Refeição: Pizza
+        Preço da refeição: R$50.99
+  Preço total: R$85.99
+
+Cliente: Laleska
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+  Preço total: R$35.90
+
+Cliente: Alanna
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 9
+        Refeição: Cachorro-Quente
+        Preço da refeição: R$12.00
+        Código: 7
+        Refeição: Lasanha
+        Preço da refeição: R$40.00
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+  Preço total: R$122.90
+
+Cliente: Lara
+        Código: 6
+        Refeição: Abobora-Recheada
+        Preço da refeição: R$35.00
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+  Preço total: R$70.90
+
+Cliente: Artur
+        Código: 12
+        Refeição: Salada-Grega
+        Preço da refeição: R$7.00
+        Código: 15
+        Refeição: Galinhada-Caipira
+        Preço da refeição: R$35.90
+        Código: 10
+        Refeição: Pure-de-Batata
+        Preço da refeição: R$10.00
+  Preço total: R$52.90
+
+
+Chocolates na pilha:
+ Sonho-de-Valsa
+ Laka
+ Chokito
+ Prestígio
+ M&Ms
+ Baton
+ Lollo
+ Suflair
+ Bis
+ Kinder-Bueno
+ Sensação
+ Serenata-de-Amor
+ Alpino
+ Caribe
+ Olho-de-Sogra
+ Ouro-Branco
+ Ferrero-Rocher
+ Raffaello
+ Diamante-Negro
+ Talento
+ Charge
+ Snickers
+ Twix
+ Kit-Kat
+ Amandita
+ Opereta
+ Bon-o-Bon-Morango
+ Kinder-Ovo
+ Tortuguita
+ Smash
+ Galak
+ Laka-Oreo
+ Negresco
+ Crunch
+ Crocante
+ Surreal
+ Eclipse
+ Lancy
+ Five-Star
+ Lacta-ao-Leite
+
+
+Cliente que foi embora: Ana, chocolate que ele(a) recebeu: Lacta-ao-Leite
+Cliente que foi embora: Joao, chocolate que ele(a) recebeu: Five-Star
+Cliente que foi embora: Joana, chocolate que ele(a) recebeu: Lancy
+Cliente que foi embora: Andressa, chocolate que ele(a) recebeu: Eclipse
+Cliente que foi embora: Matheus, chocolate que ele(a) recebeu: Surreal
+Cliente que foi embora: Alvaro, chocolate que ele(a) recebeu: Crocante
+Cliente que foi embora: Giovanna, chocolate que ele(a) recebeu: Crunch
+Cliente que foi embora: Gabriel, chocolate que ele(a) recebeu: Negresco
+Cliente que foi embora: Anaysa, chocolate que ele(a) recebeu: Laka-Oreo
+Cliente que foi embora: Rayan, chocolate que ele(a) recebeu: Galak
+Cliente que foi embora: Analya, chocolate que ele(a) recebeu: Smash
+Cliente que foi embora: Rael, chocolate que ele(a) recebeu: Tortuguita
+Cliente que foi embora: Maria, chocolate que ele(a) recebeu: Kinder-Ovo
+Cliente que foi embora: Marcos, chocolate que ele(a) recebeu: Bon-o-Bon-Morango
+Cliente que foi embora: Wilson, chocolate que ele(a) recebeu: Opereta
+Cliente que foi embora: Zilda, chocolate que ele(a) recebeu: Amandita
+Cliente que foi embora: Laleska, chocolate que ele(a) recebeu: Kit-Kat
+Cliente que foi embora: Alanna, chocolate que ele(a) recebeu: Twix
+Cliente que foi embora: Lara, chocolate que ele(a) recebeu: Snickers
+Cliente que foi embora: Artur, chocolate que ele(a) recebeu: Charge
