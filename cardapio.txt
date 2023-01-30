@@ -1,0 +1,15 @@
+1 Hamburger 5.99
+2 Nhoque 15.90
+3 Tacos 7.50
+4 Pizza 50.99
+5 Fritas 15.00
+6 Abobora-Recheada 35.00
+7 Lasanha 40.00
+8 Escondidinho 30.99
+9 Cachorro-Quente 12.00
+10 Pure-de-Batata 10.00
+11 Macarrão 20.00
+12 Salada-Grega 7.00
+13 Feijoada-Picante 35.90
+14 Prato-Feito 28.90
+15 Galinhada-Caipira 35.90
